@@ -10,7 +10,7 @@ print("Lets now check leap years")
 
 
 
-year = int(input("Enter a year: "))
+year = int(input("Enter a year:  "))
 
 if (year % 4)== 0:
    if (year % 100)== 0:
@@ -24,4 +24,5 @@ else:
    print("{0} is not a leap year".format(year))
 
 #leap year program
+#output
 
